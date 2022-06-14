@@ -20,7 +20,7 @@ lightning run app app.py
 ```
 
 ### GPU Setup
-Right now this demo launches a `cpu`. 
+Right now this [demo](https://github.com/krishnakalyan3/mdemo/blob/master/app.py#L9) launches a `cpu`. 
 
 ```
 L.CloudCompute("cpu-small")

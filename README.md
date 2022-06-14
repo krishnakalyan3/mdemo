@@ -1,7 +1,7 @@
 ## Mars Demo Example
 
 
-### Install (Lightning)[https://lightning.ai/lightning-docs/installation.html]
+### Install [Lightning](https://lightning.ai/lightning-docs/installation.html)
 
 Follow the steps below to setup the project
 

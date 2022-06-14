@@ -18,3 +18,17 @@ lightning run app app.py --cloud
 # Deploy app locally
 lightning run app app.py 
 ```
+
+### GPU Setup
+Right now this demo launches a `cpu`. 
+
+```
+L.CloudCompute("cpu-small")
+```
+
+This can be changed to use `gpu`.
+```
+L.CloudCompute("gpu")
+```
+
+For more information on machines supported please look at our [documentation](https://ideal-potato-417c066a.pages.github.io/core_api/lightning_work/compute.html?highlight=cpu%20small).

@@ -1,0 +1,4 @@
+gradio
+torch
+torchvision
+protobuf<4.21.0

@@ -1,4 +1,4 @@
-## Mars Demo Example
+## MDemo Example
 
 
 ### Install [Lightning](https://lightning.ai/lightning-docs/installation.html)
@@ -11,4 +11,10 @@ cd mdemo
 conda create -n mars python=3.8
 conda activate mars
 pip3 install -r requirements.txt
+
+# Deploy app in cloud
+lightning run app app.py --cloud
+
+# Deploy app locally
+lightning run app app.py 
 ```
